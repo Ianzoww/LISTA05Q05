@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\QUESTAO05HUMBERTOPT2.props" />
+</Project>

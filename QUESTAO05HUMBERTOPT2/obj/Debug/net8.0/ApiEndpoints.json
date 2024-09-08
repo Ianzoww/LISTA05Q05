@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "QUESTAO05HUMBERTOPT2.Controllers.ProdutoController",
+    "Method": "AtualizarProduto",
+    "RelativePath": "API/PRODUTO/Atualizar_Cadastro_Produto/{codigoProduto}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "produtoDadosNovos",
+        "Type": "QUESTAO05HUMBERTOPT2.Models.Produto",
+        "IsRequired": true
+      },
+      {
+        "Name": "codigoProduto",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QUESTAO05HUMBERTOPT2.Controllers.ProdutoController",
+    "Method": "CadastrarProduto",
+    "RelativePath": "API/PRODUTO/Cadastrar_Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "QUESTAO05HUMBERTOPT2.Models.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QUESTAO05HUMBERTOPT2.Controllers.ProdutoController",
+    "Method": "ListarProdutos",
+    "RelativePath": "API/PRODUTO/Listar_Produtos_Cadastrados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QUESTAO05HUMBERTOPT2.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[QUESTAO05HUMBERTOPT2.WeatherForecast, QUESTAO05HUMBERTOPT2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
